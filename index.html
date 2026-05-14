@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DOM Manupulation</title>
+
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!-- tailwind css cdn  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-slate-950 text-white p-8">
+
+  <!-- Product Grid -->
+  <div id="productContainer" class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+  </div>
+
+  <div id="popup" class="hidden">
+    <div class="fixed inset-0 flex items-center justify-center bg-black/40">
+      <div class="w-[350px] bg-white rounded-2xl shadow-2xl p-6 text-center">
+
+        <!-- Success Icon  -->
+        <i class="fa-regular fa-circle-check text-green-600 text-5xl"></i>
+        <!-- Title  -->
+        <h2 class="text-2xl font-bold text-gray-800">
+          Success!
+        </h2>
+
+        <!-- Message  -->
+        <p class="text-gray-500 mt-2">
+          Product Added successfully.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
